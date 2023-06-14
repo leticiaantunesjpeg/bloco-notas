@@ -1,0 +1,38 @@
+.nota-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1%;
+  margin-bottom: 10px;
+  background-color: #f5f5f5;
+  width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nota-texto {
+  font-weight: bold;
+  width: 100%;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.nota-data {
+  font-size: 12px;
+  color: #888;
+}
+
+.button-nota{
+  color: #fff;
+  border: none;
+  margin: 4px;
+  border-radius: 4px;
+  padding: 7px;
+  cursor: pointer;
+}
+.excluir-button {
+  background-color: #e04242ce;
+}
+
+.editar-button {
+  background-color: #3f729b;
+}
